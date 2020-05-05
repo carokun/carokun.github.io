@@ -1,0 +1,81 @@
+body {
+  background-color: #fafafa;
+}
+
+nav {
+  font-family: 'Waiting for the Sunrise', cursive;
+  font-size:20px;
+}
+
+nav a {
+  color: #111;
+}
+
+nav a:hover {
+  color: #333 !important;
+}
+
+nav .spacer {
+  margin: 10px;
+}
+
+nav img {
+  height: 180%;
+}
+
+.typing {
+  font-family: 'Waiting for the Sunrise', cursive;
+  font-size:30px;
+  padding: 100px 80px;
+  letter-spacing: 6px;
+  font-weight: bold;
+}
+
+.typing h1 {
+  margin-bottom: 30px;
+  font-size:40px;
+}
+
+.section1 {
+  height: 500px;
+  background-color: #fafafa;
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  font-family: 'Waiting for the Sunrise', cursive;
+  margin-top: 40px;
+  flex-grow: 1;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-img {
+  flex: 2;
+}
+
+.item-text {
+  flex: 3;
+}
+
+.item + .item {
+  margin-left: 10%;
+}
+
+.em {
+  color: black;
+  font-weight: bold;
+}
+
+.about-text {
+  color: #222;
+  /* margin: 20px; */
+  font-size:20px;
+}
